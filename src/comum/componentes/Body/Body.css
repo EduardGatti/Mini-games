@@ -1,0 +1,22 @@
+.componente-body{
+
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(20px);
+
+}
+
+#body{
+
+    background-color: #eb0014;
+    color: white;
+    width: 40%;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 13px;
+}

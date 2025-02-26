@@ -1,0 +1,19 @@
+.container-moeda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#moeda{
+
+    width: 40%;
+
+}
+#valor{
+
+    width: 40%;
+    height: 30px;
+    font-size: 15px;
+
+}

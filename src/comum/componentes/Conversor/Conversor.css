@@ -1,0 +1,44 @@
+.componente-conversor{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+input{
+    background-color: #e6f7ff;
+}
+input[type="text"],   
+select,   
+button {  
+    padding: 10px;  
+    margin: 10px 0;  
+    border: 2px solid #4682b4;  
+    border-radius: 5px;  
+    font-size: 1rem;  
+    color: black;
+    border: none;
+}  
+
+select {  
+    background-color: #e6f7ff;  
+}  
+button {  
+    background-color: #4682b4;  
+    color: white;  
+    border: none;  
+    cursor: pointer;  
+    transition: background-color 0.3s; 
+    width: 40%; 
+}  
+
+button:hover {  
+    background-color: #5a9bd1;  
+}  
+#conversor{
+
+    width: 20%;
+
+}
