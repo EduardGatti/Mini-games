@@ -42,7 +42,9 @@ O projeto contém uma lista de 20 exercícios, sendo que cada um foca em um conc
 
 2. Use os seguintes comandos no Terminal:
    ```bash
-npm i 
-npm i react-router-dom
-npm i react-icons
+   npm i
+   ```bash
+   npm i react-router-dom
+   ```bash
+   npm i react-icons
 
