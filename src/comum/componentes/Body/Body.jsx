@@ -12,6 +12,9 @@ function Body() {
         <button id="body" onClick={mensagem}>Aviso</button>
         <button id="body" onClick={() => navigate("/conversor")}>Conversor Temperatura</button>
         <button id="body" onClick={() => navigate("/moeda")}>Conversor Moeda</button>
+        <button id="body" onClick={() => navigate("/distancia")}>Conversor Distancia</button>
+        <button id="body" onClick={() => navigate("/imc")}>Calculadora IMC</button>
+        <button id="body" onClick={() => navigate("/cronometro")}>Cronometro</button>
     </div>
   )
 }

@@ -9,6 +9,7 @@
 }
 input{
     background-color: #e6f7ff;
+
 }
 input[type="text"],   
 select,   
@@ -23,10 +24,14 @@ button {
 }  
 
 select {  
-    background-color: #e6f7ff;  
-}  
+    background-color: #b07edf; 
+    color: white; 
+} 
+select:hover{
+   background-color: #af5ad1;
+} 
 button {  
-    background-color: #4682b4;  
+    background-color: #b07edf;  
     color: white;  
     border: none;  
     cursor: pointer;  
@@ -35,7 +40,7 @@ button {
 }  
 
 button:hover {  
-    background-color: #5a9bd1;  
+    background-color: #af5ad1;  
 }  
 #conversor{
 

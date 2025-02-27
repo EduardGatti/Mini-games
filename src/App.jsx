@@ -4,6 +4,9 @@ import './App.css'
 import Body from './comum/componentes/Body/Body'
 import Conversor from './comum/componentes/Conversor/Conversor'
 import ConversorMoeda from './comum/componentes/ConversorMoeda/ConversorMoeda'
+import ConversorDistancia from './comum/componentes/ConversorDistancia/ConversorDistancia'
+import IMC from './comum/componentes/IMC/IMC'
+import Cronometro from './comum/componentes/Cronometro/Cronometro'
 
 
 
@@ -23,12 +26,25 @@ function App() {
   {
     path: '/moeda',
     element: <ConversorMoeda />,
-  }
+  },
+  {
+    path: '/imc',
+    element: <IMC />,
+  },
+  {
+    path: '/distancia',
+    element: <ConversorDistancia />,
+  },
+  {
+    path: '/cronometro',
+    element: <Cronometro />,
+  },
  ])
 
     return (
     <>
     <RouterProvider router={router}/>
+
     </>
   )
 }
