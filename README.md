@@ -40,3 +40,9 @@ O projeto contém uma lista de 20 exercícios, sendo que cada um foca em um conc
    ```bash
    git clone https://github.com/eduardgatti/mini-games.git
 
+2. Use os seguintes comandos no Terminal:
+   ```bash
+npm i 
+npm i react-router-dom
+npm i react-icons
+
